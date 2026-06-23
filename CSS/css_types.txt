@@ -50,3 +50,85 @@ color types
    represented by a predefined name
    syntax: color-name
    example: red, blue, green
+size types
+-->Pixels (px)
+   absolute unit of measurement
+   commonly used for precise control over element dimensions
+   example: width: 200px; height: 100px;
+-->Ems (em)
+   relative unit of measurement based on the font size of the parent element
+   commonly used for scalable and responsive designs
+   example: font-size: 1.5em; (1.5 times the font size of the parent element)
+-->Rems (rem)
+   relative unit of measurement based on the font size of the root element (html)
+   commonly used for consistent sizing across the entire document
+   example: font-size: 2rem; (2 times the font size of the root element)
+-->Percentages (%)
+   relative unit of measurement based on the size of the parent element
+   commonly used for responsive layouts and fluid designs
+   example: width: 50%; height: 75%;
+
+Viewport units (vw, vh, vmin, vmax)
+   relative units of measurement based on the size of the viewport (browser window)
+   vw: 1% of the viewport width
+   vh: 1% of the viewport height
+   vmin: 1% of the smaller dimension (width or height) of the viewport
+   vmax: 1% of the larger dimension (width or height) of the viewport
+   example: width: 80vw; height: 50vh;
+
+
+**relation between all px, em, rem, % and viewport units**
+   1em = 16px (default font size in most browsers)
+   1rem = 16px (default font size in most browsers)
+   100% = 16px (default font size in most browsers)
+   1vw = 1% of the viewport width
+   1vh = 1% of the viewport height
+   1vmin = 1% of the smaller dimension (width or height) of the viewport
+   1vmax = 1% of the larger dimension (width or height) of the viewport
+
+
+font height and width
+-->font height
+    1. line-height: controls the vertical spacing between lines of text
+    2. letter-spacing: controls the horizontal spacing between characters
+    3. word-spacing: controls the horizontal spacing between words
+font width
+    1. font-stretch: controls the width of the font (normal, condensed, expanded)
+    2. font-variant: controls the appearance of the font (small-caps, oldstyle-nums)
+font weight
+    1. font-weight: controls the thickness of the font (normal, bold, bolder, lighter, 100-900) 
+font style
+    1. font-style: controls the style of the font (normal, italic, oblique)
+
+short hand properties
+-->margin: sets the margin for all four sides of an element (top, right, bottom, left)
+font: shorthand property for setting font-style, font-variant, font-weight, font-size, line-height, and font-family in a single declaration
+   syntax: font: [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family];
+   example: font: italic small-caps bold 16px/1.5 "Arial", sans-serif;
+
+to get fonts from google fonts
+    1. go to google fonts website
+    2. select the font you want to use
+    3. click on the "Select this style" button
+    4. click on the "Embed" tab
+    5. copy the link provided in the "Standard" section
+    6. paste the link in the <head> section of your html file
+    7. use the font-family property in your css file to apply the font to your elements
+    syntax: 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Font+Name&display=swap" rel="stylesheet">
+
+alignment types
+-->text-align: controls the horizontal alignment of text within an element (left, right, center
+, justify)
+
+**text decoration**
+   1. text-decoration: controls the decoration of text (none, underline, overline, line-through)
+   2. text-transform: controls the capitalization of text (none, capitalize, uppercase, lowercase)
+   3. text-indent: controls the indentation of the first line of text in an element
+   4. text-shadow: adds shadow to text (horizontal offset, vertical offset, blur radius, color)
+
+to remove underline under anchor tag
+   1. text-decoration: none;
+
+

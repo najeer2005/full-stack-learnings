@@ -1,0 +1,85 @@
+img{
+    width: 120px;
+    height: 120px;
+}
+.first{
+    width: 60%;
+    height: 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    color:aliceblue
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+#login{
+    width: 60%;
+    height: 30px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+#login:hover{
+    background-color: #0d5bbf;
+}
+
+#forget{
+    color: blue;
+    border : none;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#create-account{
+    width: 150px;
+    height: 30px;;
+    color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.first{
+    width: 200%;
+    height: 30px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+div{
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+body{
+    background-color: #0d5bbf;
+    margin : auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+}
