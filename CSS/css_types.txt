@@ -1,0 +1,52 @@
+types of css
+-->INLINE CSS
+   written inside the html tags with using 
+   style = "property: value;"
+   has higher priority than internal and external css
+-->INTERNAL CSS
+   written inside head tag using <style> tag
+   has higher priority than external css
+   used with the help of selectors to style multiple elements
+-->EXTERNAL CSS
+    written in a separate .css file
+    linked to the html file using <link> tag
+    used to style multiple html files with the same css file.
+    <link rel="stylesheet" href="style.css">
+
+
+selectors
+-->Class selector
+   used to select elements with a specific class attribute
+   syntax: .classname { property: value; }
+-->ID selector
+    used to select an element with a specific id attribute
+    syntax: #idname { property: value; }
+-->Universal selector
+    used to select all elements in the document
+    syntax: * { property: value; }
+-->grouping selector
+    used to select multiple elements with the same style
+    syntax: element1, element2 { property: value; }
+-->descendant selector
+    used to select elements that are descendants of a specific element considers all
+    syntax: parent child { property: value; }
+-->child selector
+    used to select elements that are direct children of a specific element considers only 1st level children
+    syntax: parent > child { property: value; }
+-->attribute selector
+    used to select elements based on their attributes
+    syntax: element[attribute] { property: value; }
+
+color types
+-->HEX color
+   represented by a six-digit hexadecimal number preceded by a hash symbol (#)
+   syntax: #RRGGBB
+   example: #FF5733 (a shade of orange)
+-->RGB color
+   represented by a three-digit hexadecimal number preceded by a hash symbol (#)
+   syntax: #RGB
+   example: #F53 (a shade of orange)
+-->Named color
+   represented by a predefined name
+   syntax: color-name
+   example: red, blue, green

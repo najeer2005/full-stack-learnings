@@ -1,0 +1,25 @@
+.start{             /*class selector*/
+    font-style: italic;
+}
+#Certification{     /*id selector*/
+    font-style: italic;
+}
+*{                 /*universal selector*/
+    background-color: bisque;
+}
+/*grouping selectors*/
+.start, #Certification, *{
+    font-style: italic;
+}
+/*descendant selector*/
+section h2{
+    color: blue;
+}
+/*child selector*/
+section > h2{
+    color: red;
+}
+/*attribute selector*/
+input[type="text"]{
+    border: 2px solid black;
+}
