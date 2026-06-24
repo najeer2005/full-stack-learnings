@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foodie's Restaurant</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background-color:#f8f8f8;
+    }
+
+    header{
+        background-color:#ff6b35;
+        color:white;
+        padding:20px 50px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    nav ul{
+        list-style:none;
+        display:flex;
+        gap:20px;
+    }
+
+    nav a{
+        text-decoration:none;
+        color:white;
+        font-weight:bold;
+    }
+
+    .hero{
+        height:90vh;
+        background:url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4') center/cover no-repeat;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        color:white;
+        text-align:center;
+    }
+
+    .hero h1{
+        font-size:60px;
+        margin-bottom:15px;
+    }
+
+    .hero p{
+        font-size:22px;
+        margin-bottom:20px;
+    }
+
+    .btn{
+        padding:12px 25px;
+        background:#ff6b35;
+        color:white;
+        text-decoration:none;
+        border-radius:5px;
+        font-size:18px;
+    }
+
+    .about{
+        padding:60px 20px;
+        text-align:center;
+    }
+
+    .about h2{
+        margin-bottom:20px;
+        color:#333;
+    }
+
+    .about p{
+        max-width:700px;
+        margin:auto;
+        color:#666;
+        line-height:1.6;
+    }
+
+    .menu{
+        padding:60px 20px;
+        text-align:center;
+        background:white;
+    }
+
+    .menu-items{
+        display:flex;
+        justify-content:center;
+        gap:30px;
+        margin-top:30px;
+        flex-wrap:wrap;
+    }
+
+    .card{
+        background:#f4f4f4;
+        width:250px;
+        padding:20px;
+        border-radius:10px;
+    }
+
+    .card h3{
+        margin-bottom:10px;
+    }
+
+    .price{
+        color:#ff6b35;
+        font-weight:bold;
+    }
+
+    footer{
+        background:#333;
+        color:white;
+        text-align:center;
+        padding:20px;
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <h2>Foodie's</h2>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">offers</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Delicious Food Awaits</h1>
+    <p>Fresh Ingredients | Great Taste | Fast Service</p>
+    <a href="#" class="btn">Order Now</a>
+</section>
+
+<section class="about">
+    <h2>About Us</h2>
+    <p>
+        Welcome to Foodie's Restaurant. We serve fresh and delicious meals
+        prepared by experienced chefs. Enjoy a memorable dining experience
+        with family and friends.
+    </p>
+</section>
+
+<section class="menu">
+    <h2>Popular Dishes</h2>
+
+    <div class="menu-items">
+        <div class="card">
+            <h3>Pizza</h3>
+            <p>Cheesy and loaded with toppings.</p>
+            <p class="price">₹299</p>
+        </div>
+
+        <div class="card">
+            <h3>Burger</h3>
+            <p>Juicy grilled burger with fries.</p>
+            <p class="price">₹199</p>
+        </div>
+
+        <div class="card">
+            <h3>Pasta</h3>
+            <p>Creamy Italian-style pasta.</p>
+            <p class="price">₹249</p>
+        </div>
+               <div class="card">
+            <h3>biriyani</h3>
+            <p>Spicy and flavorful Indian rice dish.</p>
+            <p class="price">₹350</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Foodie's Restaurant. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

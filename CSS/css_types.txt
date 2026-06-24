@@ -131,4 +131,10 @@ alignment types
 to remove underline under anchor tag
    1. text-decoration: none;
 
+media width
+ mobile 576px
+ tablet 768px
+laptop 992px
+desktop 1200px
+
 
